@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/alt.js">
+    </script>
+    <link rel="stylesheet" href="css/project.css">
+    <script>
+       function openslidemenu(){
+           document.getElementById('menu').style.width='250px';
+           document.getElementById('content').style.marginleft='250px';
+       }
+
+       function openslidemenu(){
+           document.getElementById('menu').style.width='0px';
+           document.getElementById('content').style.marginleft='0px';
+       }
+    </script>
+   </head>
+<body>
+<header>
+    <div id="sidebar">
+
+        <div class="toggle-btn">
+
+        <span class="slide">
+            <a href="#" onclick="openslideMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+            
+            </span>
+
+            </div>
+
+            <div id="menu" class="nav">
+                <a href="#" class="close" onclick="closeslideMenu()">
+                    <i class="fas fa-times"></i>
+                </a>
+                <a href="#">Products</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Partners</a>
+                    <a href="#">Resources</a>
+                    <a href="#">About</a>
+                
+            </div>
+
+            </div>
+        </header>
+</body>
+</html>
